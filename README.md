@@ -28,4 +28,25 @@ Good luck!"
 This directory contains: 
 
 A codebook detailing the variables used in the resluting tify dataset.
-the sript 'Run_Analysis' which will produce two txt datasets.
+the sript 'run_analysis.R' which will produce two txt datasets.
+
+Additional txt files contained in the unzipped data are also included.
+
+README.txt gives details on the trial undertaken and some of the files found in the unzipped data.
+features_info.txt outlines the variables used in the origional data
+
+
+To run the script:
+load the script into R
+Type run_analysis()
+
+This will create two datasets:
+tidyData.txt which is the merged and labeled test and train datasets.
+tidyData2.txt which contains the tidy dataset as outlined by the course project.
+
+If the merged train and test dataset is required to be loaded into memory then the command
+dataFrameName <- run_analysis()
+
+Otherwise either dataset can be read with the command
+dataFrameName <- read.table("tidyData.txt", header=TRUE)
+
