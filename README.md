@@ -27,30 +27,30 @@ Good luck!"
 
 This directory contains: 
 
-A codebook detailing the variables used in the resluting tify dataset.
+A codebook detailing the variables used in the resluting tify dataset.  
 the sript 'run_analysis.R' which will produce two txt datasets.
 
 Additional txt files contained in the unzipped data are also included.
 
-"UCI_HAR_Dataset_README.txt" gives details on the trial undertaken and some of the files found in the unzipped data.
+"UCI_HAR_Dataset_README.txt" gives details on the trial undertaken and some of the files found in the unzipped data.  
 "features_info.txt" outlines the variables used in the origional data
 
 
-The script was written on 16/06/14 using R 3.0.3 for Windows and can be with the following steps:
-load the script into R
-Ensure the working directory for R contains the unzipped UCI_HAR_Dataset
+The script was written on 16/06/14 using R 3.0.3 for Windows and can be with the following steps:  
+load the script into R  
+Ensure the working directory for R contains the unzipped UCI_HAR_Dataset  
 Type 'run_analysis()'
 
-This will create two datasets:
-tidyData.txt which is the merged and labeled test and train datasets.
+This will create two datasets:  
+tidyData.txt which is the merged and labeled test and train datasets.  
 tidyData2.txt which contains the tidy dataset as outlined by the course project.
 
-If the merged train and test dataset is required to be loaded into memory then 
-the following command can be used:
+If the merged train and test dataset is required to be loaded into memory then  
+the following command can be used:  
 dFrame <- run_analysis()
 
-Otherwise either dataset can be read with the command
-dFrame <- read.table("tidyData.txt", header=TRUE) 
-Or
-dFrame <- read.table("tidyData2.txt", header=TRUE)
+Otherwise either dataset can be read with the command  
+dFrame <- read.table("tidyData.txt", header=TRUE)  
+Or  
+dFrame <- read.table("tidyData2.txt", header=TRUE)  
 
