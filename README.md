@@ -25,7 +25,8 @@ Creates a second, independent tidy data set with the average of each variable fo
 Good luck!"
 
 
-This directory contains: 
+This directory contains:
+------------------------
 
 A codebook detailing the variables used in the resluting tify dataset.  
 the sript 'run_analysis.R' which will produce two txt datasets.
